@@ -10,3 +10,4 @@ async function fetchData(callback) {
   function displayMessage(data) {
       document.getElementById("output").innerText = data.title;
   }
+  / add onclick="fetchData(displayMessage)" on button in html.
